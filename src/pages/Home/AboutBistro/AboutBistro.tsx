@@ -1,3 +1,4 @@
+import React from 'react';
 import about from '../../../assets/home/bg.png'
 const AboutBistro = () => {
     return (
