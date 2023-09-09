@@ -9,6 +9,7 @@ interface MenuItemType {
     category: string
     image: string
     price: number
+  
 }
 
 interface MenuItemProps {
@@ -25,7 +26,7 @@ const PopularMenu: React.FC = () => {
             <SectionTitle heading={'From Our Menu'} subHeading={'Popular items'}></SectionTitle>
             <div className="grid md:grid-cols-2 gap-10">
                 {
-                    popular.map((item: any)=> {
+                    popular.map((item: MenuItemType)=> {
                         // @ts-ignore
                         return <MenuItem key={item._id}
                                           item={item}

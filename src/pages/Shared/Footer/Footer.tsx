@@ -1,9 +1,10 @@
+import React from "react";
 import { useEffect, useState } from "react";
 
-const Footer = () => {
-  const [date, setDate] = useState();
+const Footer: React.FC = () => {
+  const [date, setDate] = useState<number>();
   const getYear = () => {
-    setDate(new Date().getFullYear());
+    setDate (new Date().getFullYear());
   };
 
   useEffect(() => {

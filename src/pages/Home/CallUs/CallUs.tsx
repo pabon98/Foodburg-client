@@ -1,3 +1,4 @@
+import React from 'react';
 import bg from '../../../assets/home/black_bg.png'
 const CallUs = () => {
     return (
