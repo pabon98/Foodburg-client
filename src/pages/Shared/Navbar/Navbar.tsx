@@ -12,7 +12,7 @@ const Navbar = () => {
       </li>
 
       <li>
-        <NavLink to='/shop'>Our Shop</NavLink>
+        <NavLink to='/order/salad'>Order Food</NavLink>
       </li>
       <li>
         <NavLink to='/contact'>Contact Us</NavLink>
@@ -53,7 +53,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navOptions}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-neutral">Button</a>
+        <a className="btn btn-neutral">Login</a>
       </div>
     </div>
   );
